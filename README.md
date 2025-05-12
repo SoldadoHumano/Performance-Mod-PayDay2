@@ -38,3 +38,6 @@ Este mod requer a instalação do **[SuperBLT](https://superblt.znix.xyz/)** par
 1. Instale o [SuperBLT](https://superblt.znix.xyz/) (caso ainda não tenha).
 2. Baixe o arquivo do mod no [Discord](https://discord.gg/Mkjs7GH3Br).
 3. Extraia o conteúdo na pasta `mods` dentro da pasta de instalação do seu PayDay 2.
+4. Inicie o jogo.
+
+Sinta-se livre para modificar, compartilhar ou contribuir.
