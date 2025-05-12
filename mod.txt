@@ -1,0 +1,19 @@
+{
+  "name": "Performance Mod",
+  "description": "Mod focado na performance do jogo.",
+  "author": "vitor1227_OP",
+  "contact": "Discord: vitor1227_op",
+  "version": "1.0.0",
+  "priority": 0,
+  "persist_scripts": [{ "global": "SetVideo", "script_path": "performance_mod.lua" }],
+  "hooks": [
+    { "hook_id": "lib/setups/rendersettings", "script_path": "performance_mod.lua" },
+    { "hook_id": "lib/managers/enemymanager", "script_path": "performance_mod.lua" },
+    { "hook_id": "lib/managers/gameplaycentralmanager", "script_path": "performance_mod.lua" },
+    { "hook_id": "lib/units/enemies/cop/copdamage", "script_path": "performance_mod.lua" },
+    { "hook_id": "lib/managers/coreeffectmanager", "script_path": "performance_mod.lua" },
+    { "hook_id": "lib/managers/worldeffectmanager", "script_path": "performance_mod.lua" },
+    { "hook_id": "lib/entry", "script_path": "performance_mod.lua" },
+    { "hook_id": "core/lib/utils/coredebug", "script_path": "performance_mod.lua"}
+  ]
+}
